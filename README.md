@@ -1,55 +1,22 @@
-Lustrous Bazaar
-================
+💎 Lustrous Bazaar — Digital Storefront MVP
 
-Static showcase site for handcrafted metal, copper art, silver jewelry and leather goods.
+Lustrous Bazaar is a modern static website built as an MVP (Minimum Viable Product) to help a local business begin its digital transformation journey.
+The project aims to provide an elegant and responsive online presence where customers can explore the store’s products, style, and contact information.
 
-Structure
----------
-index.html
-assets/
-  css/
-    tokens.css (Design tokens / base styles)
-    styles.css (Component & layout styles)
-    js/
-      main.js (Navigation + carousel + reflections)
-      img/ (Images)
-data/ (Currently unused; JSON fetching removed)
+🌐 Live Demo: https://saithv.github.io/lustrous-bazaar.github.io/
 
-Local Preview
--------------
-You can just open index.html in a browser, or serve it (optional) for correct relative path behavior.
 
-Mac / Linux:
-python3 -m http.server 8080
+🧠 Built With
+	•	HTML5, CSS3, JavaScript
+	•	GitHub Pages for hosting and version control
 
-Then open: http://localhost:8080
+👨‍💻 Developer
 
-Deploy to GitHub Pages
-----------------------
-1. Create repo (choose ONE approach):
-   - Project Site (recommended): lustrous-bazaar
-   - Or User Site (yourusername.github.io) if you want it at root domain.
-2. Initialize locally:
-   git init
-   git add .
-   git commit -m "Initial commit"
-3. Add remote:
-   git remote add origin https://github.com/YOUR_USERNAME/lustrous-bazaar.git
-4. Push:
-   git branch -M main
-   git push -u origin main
-5. In GitHub repo Settings > Pages:
-   - Source: Deploy from a branch
-   - Branch: main / (root)
-6. After it builds, site will be at:
-   https://YOUR_USERNAME.github.io/lustrous-bazaar/
+Developed by: Saith Vega Cisneros
+📍 Nogales, AZ / Sonora, MX
 
-Remember to replace YOUR_USERNAME in meta tags in index.html.
 
-Optional Hardening
-------------------
-Add a robots.txt or sitemap.xml later if needed.
+📜 License
 
-License
--------
-Proprietary. All rights reserved unless you choose a license.
+This project was created for a local business as a demonstration and educational purpose.
+All brand assets, logos, and images belong to Lustrous Bazaar.
